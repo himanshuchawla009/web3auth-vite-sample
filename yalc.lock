@@ -1,0 +1,11 @@
+{
+  "version": "v1",
+  "packages": {
+    "@web3auth/ui": {
+      "signature": "7b1cf231b22bc5665d6636b455068cb4"
+    },
+    "@web3auth/base": {
+      "signature": "33ecccebe412ea804445a8305f11715b"
+    }
+  }
+}

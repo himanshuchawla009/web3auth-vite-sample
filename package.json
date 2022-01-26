@@ -1,0 +1,25 @@
+{
+  "name": "web3auth-vite",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "link-local": "yalc link @web3auth/ui @web3auth/base"
+  },
+  "dependencies": {
+    "vue": "^3.2.25",
+    "@web3auth/web3auth": "^0.1.1",
+    "events": "^3.3.0"
+  },
+  "resolutions": {
+    "@web3auth/ui": "file:./.yalc/@web3auth/ui",
+    "@web3auth/base": "file:./.yalc/@web3auth/base"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.0.0",
+    "vite": "^2.7.2",
+    "@esbuild-plugins/node-globals-polyfill": "^0.1.1",
+    "@esbuild-plugins/node-modules-polyfill": "^0.1.1"
+  }
+}
