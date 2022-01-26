@@ -1,7 +1,7 @@
-# Vue 3 + Vite
+# Web3Auth + Vue 3 + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-## Recommended IDE Setup
+Polyfilled example repo for web3auth + vue 3 + vite.
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+Check package.json and vite.config.js to check the node js browser polyfills required to run web3auth with vite.
+
